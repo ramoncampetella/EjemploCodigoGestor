@@ -1,0 +1,1 @@
+Los proyectos con los DTO deberan ser enviado como libreria por los servicios, en esta carpeta estan a MODO DE EJEMPLO.

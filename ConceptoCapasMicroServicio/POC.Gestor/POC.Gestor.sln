@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.API", "POC.Gestor.API\Gestor.API.csproj", "{F766A893-6928-48F9-A9A3-59AE09F309E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.BizEntities", "Gestor.BizEntities\Gestor.BizEntities.csproj", "{B1CB1F1A-D6F5-4D01-B709-77D11489FF03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComprobanteServiceAdapter", "ComprobanteServiceAdapter", "{20F9592A-DB96-495F-9171-CCC859B470A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOSExternos", "DTOSExternos", "{2A0C8E8E-8EC7-45C4-A7D1-8E8660AC57C7}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CuotaCobradaServiceAdapter", "CuotaCobradaServiceAdapter", "{F9B1D0EC-B007-4448-A7EF-B0D593AC87AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComprobanteService.DTO", "ComprobanteService.DTO\ComprobanteService.DTO.csproj", "{C2E3D178-FE00-41CF-A2A3-A1D2C5B27E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuotaCobradaService.DTO", "CuotaCobradaService.DTO\CuotaCobradaService.DTO.csproj", "{9D995C93-1ED1-4F96-9658-583055B93A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.Interfaces.Externas", "Gestor.Interfaces\Gestor.Interfaces.Externas.csproj", "{4A74131F-6761-450B-91CE-7DC3619167EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.ComprobanteServiceAdapter", "Gestor.ComprobanteServiceAdapter\Gestor.ComprobanteServiceAdapter.csproj", "{4CAFB7EE-EC60-4E22-8A27-1D990644A7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.ComprobanteServiceAdapterMock", "Gestor.ComprobanteServiceAdapterMock\Gestor.ComprobanteServiceAdapterMock.csproj", "{8188E9D8-1DF4-43ED-9C74-C3527BAA9586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F766A893-6928-48F9-A9A3-59AE09F309E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F766A893-6928-48F9-A9A3-59AE09F309E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F766A893-6928-48F9-A9A3-59AE09F309E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F766A893-6928-48F9-A9A3-59AE09F309E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CB1F1A-D6F5-4D01-B709-77D11489FF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CB1F1A-D6F5-4D01-B709-77D11489FF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CB1F1A-D6F5-4D01-B709-77D11489FF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CB1F1A-D6F5-4D01-B709-77D11489FF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E3D178-FE00-41CF-A2A3-A1D2C5B27E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E3D178-FE00-41CF-A2A3-A1D2C5B27E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E3D178-FE00-41CF-A2A3-A1D2C5B27E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E3D178-FE00-41CF-A2A3-A1D2C5B27E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D995C93-1ED1-4F96-9658-583055B93A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D995C93-1ED1-4F96-9658-583055B93A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D995C93-1ED1-4F96-9658-583055B93A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D995C93-1ED1-4F96-9658-583055B93A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A74131F-6761-450B-91CE-7DC3619167EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A74131F-6761-450B-91CE-7DC3619167EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A74131F-6761-450B-91CE-7DC3619167EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A74131F-6761-450B-91CE-7DC3619167EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAFB7EE-EC60-4E22-8A27-1D990644A7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAFB7EE-EC60-4E22-8A27-1D990644A7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAFB7EE-EC60-4E22-8A27-1D990644A7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAFB7EE-EC60-4E22-8A27-1D990644A7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8188E9D8-1DF4-43ED-9C74-C3527BAA9586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8188E9D8-1DF4-43ED-9C74-C3527BAA9586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8188E9D8-1DF4-43ED-9C74-C3527BAA9586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8188E9D8-1DF4-43ED-9C74-C3527BAA9586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2E3D178-FE00-41CF-A2A3-A1D2C5B27E66} = {2A0C8E8E-8EC7-45C4-A7D1-8E8660AC57C7}
+		{9D995C93-1ED1-4F96-9658-583055B93A98} = {2A0C8E8E-8EC7-45C4-A7D1-8E8660AC57C7}
+		{4CAFB7EE-EC60-4E22-8A27-1D990644A7C0} = {20F9592A-DB96-495F-9171-CCC859B470A9}
+		{8188E9D8-1DF4-43ED-9C74-C3527BAA9586} = {20F9592A-DB96-495F-9171-CCC859B470A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8D9278C-7261-4E46-BA1A-750A1440A3AF}
+	EndGlobalSection
+EndGlobal
