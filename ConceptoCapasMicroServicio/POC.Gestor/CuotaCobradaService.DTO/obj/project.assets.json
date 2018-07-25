@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\CuotaCobradaService.DTO\\CuotaCobradaService.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\CuotaCobradaService.DTO\\CuotaCobradaService.DTO.csproj",
       "projectName": "CuotaCobradaService.DTO",
-      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\CuotaCobradaService.DTO\\CuotaCobradaService.DTO.csproj",
+      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\CuotaCobradaService.DTO\\CuotaCobradaService.DTO.csproj",
       "packagesPath": "C:\\Users\\f15583\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\CuotaCobradaService.DTO\\obj\\",
+      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\CuotaCobradaService.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

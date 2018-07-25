@@ -1,0 +1,9 @@
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\bin\Debug\netcoreapp2.0\Gestor.Common.deps.json
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\bin\Debug\netcoreapp2.0\Gestor.Common.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\bin\Debug\netcoreapp2.0\Gestor.Common.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\obj\Debug\netcoreapp2.0\Gestor.Common.csproj.CoreCompileInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\obj\Debug\netcoreapp2.0\Gestor.Common.AssemblyInfoInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\obj\Debug\netcoreapp2.0\Gestor.Common.AssemblyInfo.cs
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\obj\Debug\netcoreapp2.0\Gestor.Common.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\obj\Debug\netcoreapp2.0\Gestor.Common.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.Common\obj\Debug\netcoreapp2.0\Gestor.Common.csprojAssemblyReference.cache

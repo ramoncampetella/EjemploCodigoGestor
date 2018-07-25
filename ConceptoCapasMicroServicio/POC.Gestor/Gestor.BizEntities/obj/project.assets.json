@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\Gestor.BizEntities.csproj",
+      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\Gestor.BizEntities.csproj",
       "projectName": "Gestor.BizEntities",
-      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\Gestor.BizEntities.csproj",
+      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\Gestor.BizEntities.csproj",
       "packagesPath": "C:\\Users\\f15583\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\obj\\",
+      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

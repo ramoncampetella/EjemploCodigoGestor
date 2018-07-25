@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Interfaces\\Gestor.Interfaces.Externas.csproj",
+      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Interfaces\\Gestor.Interfaces.Externas.csproj",
       "projectName": "Gestor.Interfaces.Externas",
-      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Interfaces\\Gestor.Interfaces.Externas.csproj",
+      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Interfaces\\Gestor.Interfaces.Externas.csproj",
       "packagesPath": "C:\\Users\\f15583\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Interfaces\\obj\\",
+      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

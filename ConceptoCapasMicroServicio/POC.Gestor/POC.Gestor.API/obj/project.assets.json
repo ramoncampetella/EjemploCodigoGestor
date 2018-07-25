@@ -196,6 +196,52 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Gestor.BizEntities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Gestor.BizEntities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gestor.BizEntities.dll": {}
+        }
+      },
+      "Gestor.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Gestor.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gestor.Common.dll": {}
+        }
+      },
+      "Gestor.CuotaCobradaServiceAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Gestor.BizEntities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gestor.CuotaCobradaServiceAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gestor.CuotaCobradaServiceAdapter.dll": {}
+        }
+      },
+      "Gestor.ResumenTarjetaCobradoServiceAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Gestor.BizEntities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gestor.ResumenTarjetaCobradoServiceAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gestor.ResumenTarjetaCobradoServiceAdapter.dll": {}
+        }
       }
     }
   },
@@ -656,10 +702,34 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Gestor.BizEntities/1.0.0": {
+      "type": "project",
+      "path": "../Gestor.BizEntities/Gestor.BizEntities.csproj",
+      "msbuildProject": "../Gestor.BizEntities/Gestor.BizEntities.csproj"
+    },
+    "Gestor.Common/1.0.0": {
+      "type": "project",
+      "path": "../Gestor.Common/Gestor.Common.csproj",
+      "msbuildProject": "../Gestor.Common/Gestor.Common.csproj"
+    },
+    "Gestor.CuotaCobradaServiceAdapter/1.0.0": {
+      "type": "project",
+      "path": "../Gestor.CuotaCobradaServiceAdapter/Gestor.CuotaCobradaServiceAdapter.csproj",
+      "msbuildProject": "../Gestor.CuotaCobradaServiceAdapter/Gestor.CuotaCobradaServiceAdapter.csproj"
+    },
+    "Gestor.ResumenTarjetaCobradoServiceAdapter/1.0.0": {
+      "type": "project",
+      "path": "../Gestor.ResumenTarjetaCobradoAdapter/Gestor.ResumenTarjetaCobradoServiceAdapter.csproj",
+      "msbuildProject": "../Gestor.ResumenTarjetaCobradoAdapter/Gestor.ResumenTarjetaCobradoServiceAdapter.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Gestor.BizEntities >= 1.0.0",
+      "Gestor.Common >= 1.0.0",
+      "Gestor.CuotaCobradaServiceAdapter >= 1.0.0",
+      "Gestor.ResumenTarjetaCobradoServiceAdapter >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -670,11 +740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\POC.Gestor.API\\Gestor.API.csproj",
+      "projectUniqueName": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\POC.Gestor.API\\Gestor.API.csproj",
       "projectName": "Gestor.API",
-      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\POC.Gestor.API\\Gestor.API.csproj",
+      "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\POC.Gestor.API\\Gestor.API.csproj",
       "packagesPath": "C:\\Users\\f15583\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\ConceptoCapasMicroServicio\\POC.Gestor\\POC.Gestor.API\\obj\\",
+      "outputPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\POC.Gestor.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -692,7 +762,20 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\Gestor.BizEntities.csproj": {
+              "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.BizEntities\\Gestor.BizEntities.csproj"
+            },
+            "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Common\\Gestor.Common.csproj": {
+              "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.Common\\Gestor.Common.csproj"
+            },
+            "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.CuotaCobradaServiceAdapter\\Gestor.CuotaCobradaServiceAdapter.csproj": {
+              "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.CuotaCobradaServiceAdapter\\Gestor.CuotaCobradaServiceAdapter.csproj"
+            },
+            "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.ResumenTarjetaCobradoAdapter\\Gestor.ResumenTarjetaCobradoServiceAdapter.csproj": {
+              "projectPath": "C:\\Users\\f15583\\Documents\\Pruebas\\RepoGithub\\ConceptoCapasMicroServicio\\POC.Gestor\\Gestor.ResumenTarjetaCobradoAdapter\\Gestor.ResumenTarjetaCobradoServiceAdapter.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

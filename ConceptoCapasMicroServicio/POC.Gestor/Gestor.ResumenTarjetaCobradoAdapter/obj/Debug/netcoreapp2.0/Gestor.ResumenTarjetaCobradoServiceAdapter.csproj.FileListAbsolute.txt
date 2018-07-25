@@ -1,0 +1,12 @@
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.csprojAssemblyReference.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.csproj.CoreCompileInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.AssemblyInfoInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.AssemblyInfo.cs
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.deps.json
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\Gestor.BizEntities.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\Gestor.BizEntities.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.csproj.CopyComplete
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.pdb

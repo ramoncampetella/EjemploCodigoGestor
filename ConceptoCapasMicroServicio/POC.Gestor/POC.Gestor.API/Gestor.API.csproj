@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gestor.BizEntities\Gestor.BizEntities.csproj" />
+    <ProjectReference Include="..\Gestor.Common\Gestor.Common.csproj" />
+    <ProjectReference Include="..\Gestor.CuotaCobradaServiceAdapter\Gestor.CuotaCobradaServiceAdapter.csproj" />
+    <ProjectReference Include="..\Gestor.ResumenTarjetaCobradoAdapter\Gestor.ResumenTarjetaCobradoServiceAdapter.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Gestor.BizEntities
 {
@@ -6,5 +7,8 @@ namespace Gestor.BizEntities
     {
         public string Descripcion { get; set; }
         public DateTime Fecha { get; set; }
+        public List<AbstractPago> Pagos { get; set; }
+        public List<MedioPago> MediosPago { get; set; }
+        public decimal MontoTotalCobranza { get; set; }
     }
 }

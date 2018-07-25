@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Gestor.API/1.0.0": {
+        "dependencies": {
+          "Gestor.BizEntities": "1.0.0",
+          "Gestor.Common": "1.0.0",
+          "Gestor.CuotaCobradaServiceAdapter": "1.0.0",
+          "Gestor.ResumenTarjetaCobradoServiceAdapter": "1.0.0"
+        },
+        "runtime": {
+          "Gestor.API.dll": {}
+        }
+      },
+      "Gestor.BizEntities/1.0.0": {
+        "runtime": {
+          "Gestor.BizEntities.dll": {}
+        }
+      },
+      "Gestor.Common/1.0.0": {
+        "runtime": {
+          "Gestor.Common.dll": {}
+        }
+      },
+      "Gestor.CuotaCobradaServiceAdapter/1.0.0": {
+        "dependencies": {
+          "Gestor.BizEntities": "1.0.0"
+        },
+        "runtime": {
+          "Gestor.CuotaCobradaServiceAdapter.dll": {}
+        }
+      },
+      "Gestor.ResumenTarjetaCobradoServiceAdapter/1.0.0": {
+        "dependencies": {
+          "Gestor.BizEntities": "1.0.0"
+        },
+        "runtime": {
+          "Gestor.ResumenTarjetaCobradoServiceAdapter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gestor.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestor.BizEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestor.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestor.CuotaCobradaServiceAdapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestor.ResumenTarjetaCobradoServiceAdapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

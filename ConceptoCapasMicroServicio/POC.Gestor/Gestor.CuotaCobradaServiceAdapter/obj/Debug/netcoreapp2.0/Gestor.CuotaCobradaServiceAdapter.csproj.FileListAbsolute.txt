@@ -1,0 +1,12 @@
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.csprojAssemblyReference.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.csproj.CoreCompileInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.AssemblyInfoInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.AssemblyInfo.cs
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\bin\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.deps.json
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\bin\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\bin\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\bin\Debug\netcoreapp2.0\Gestor.BizEntities.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\bin\Debug\netcoreapp2.0\Gestor.BizEntities.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.csproj.CopyComplete
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.CuotaCobradaServiceAdapter\obj\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.pdb

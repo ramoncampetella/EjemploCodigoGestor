@@ -6,5 +6,6 @@ namespace Gestor.Interfaces.Externas
 {
     public interface ICuotaCobradaServiceAdapter
     {
+        void RegistrarPago(Cuota cuota);
     }
 }
