@@ -9,11 +9,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gestor.BizEntities\Gestor.BizEntities.csproj" />
+    <ProjectReference Include="..\Gestor.RestAPI.DTO\Gestor.RestAPI.DTO.csproj" />
+    <ProjectReference Include="..\POC.Gestor.API\Gestor.API.csproj" />
   </ItemGroup>
 
 </Project>

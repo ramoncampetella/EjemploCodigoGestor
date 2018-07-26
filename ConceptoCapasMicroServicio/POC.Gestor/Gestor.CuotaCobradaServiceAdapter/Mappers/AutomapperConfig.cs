@@ -15,15 +15,5 @@ namespace Gestor.CuotaCobradaServiceAdapter.Mappers
             CreateMap<RegistrarCobroCuotaRs, Cuota>();
         }
 
-        //public static void Config()
-        //{
-        //    Mapper.Initialize(cfg =>
-        //    {
-        //        cfg.CreateMap<Cuota, RegistrarCobroCuotaRq>();
-        //        cfg.CreateMap<RegistrarCobroCuotaRs, Cuota>();
-        //    });
-                
-        //}
-        
     }
 }

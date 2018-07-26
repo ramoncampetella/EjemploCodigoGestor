@@ -11,7 +11,7 @@ namespace Gestor.API
     /// Contiene la logica del servicio, solo sabe utilizar las BizEntities propias de este servicio,
     /// DESCONOCE SU EXTERIOR.
     /// </summary>
-    public class ManagerCobranza
+    public class ManagerCobranza : IManagerCobranza
     {
         private ICuotaCobradaService _cuotaCobradaService;
         private IResumenTarjetaCobradoService _resumenTarjetaService;

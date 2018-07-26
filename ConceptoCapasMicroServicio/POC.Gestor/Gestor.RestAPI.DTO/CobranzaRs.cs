@@ -6,5 +6,6 @@ namespace Gestor.RestAPI.DTO
 {
     public class CobranzaRs
     {
+
     }
 }

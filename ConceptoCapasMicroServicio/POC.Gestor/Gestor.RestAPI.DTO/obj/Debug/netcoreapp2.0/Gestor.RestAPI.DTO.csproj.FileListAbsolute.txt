@@ -1,0 +1,9 @@
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\bin\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.deps.json
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\bin\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\bin\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\obj\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.csprojAssemblyReference.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\obj\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.csproj.CoreCompileInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\obj\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.AssemblyInfoInputs.cache
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\obj\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.AssemblyInfo.cs
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\obj\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.RestAPI.DTO\obj\Debug\netcoreapp2.0\Gestor.RestAPI.DTO.pdb
