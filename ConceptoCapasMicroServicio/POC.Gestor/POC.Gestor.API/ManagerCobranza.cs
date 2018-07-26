@@ -22,17 +22,15 @@ namespace Gestor.API
             _resumenTarjetaService = resumenTarjetaService;
         }
 
-        public int Cobrar(Cobranza cobranza)
+        public void Cobrar(ref Cobranza cobranza)
         {
-            int idCobranza = 0;
-
+            
             foreach (var pago in cobranza.Pagos)
             {
                 MethodInfo executer = typeof(ManagerCobranza).GetMethod("ProcesarCobro", new Type[] { pago.GetType() });
                 executer.Invoke(this, new object[] { pago });
             }
-
-            return idCobranza;
+            
         }
 
 
@@ -41,7 +39,7 @@ namespace Gestor.API
             //Realizar Validacion
             this.ValidarCobroResumenTarjeta(resumen);
             //Registra pago en ResumenTarjetaCobrado
-            _resumenTarjetaService.RegistrarCobro(resumen);
+            _resumenTarjetaService.RegistrarCobro(ref resumen);
         }
 
         public void ProcesarCobro(Cuota cuota)
@@ -49,7 +47,7 @@ namespace Gestor.API
             //Realizar Validacion
             this.ValidarCobroCuota(cuota);
             //Registra pago en CuotaCobrada
-            _cuotaCobradaService.RegistrarCobro(cuota);
+            _cuotaCobradaService.RegistrarCobro(ref cuota);
         }
 
         internal void ValidarCobroResumenTarjeta(ResumenTarjeta resumen)

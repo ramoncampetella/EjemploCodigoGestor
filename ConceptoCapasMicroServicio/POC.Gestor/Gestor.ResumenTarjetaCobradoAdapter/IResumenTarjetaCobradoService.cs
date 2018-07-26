@@ -4,6 +4,6 @@ namespace Gestor.ResumenTarjetaCobradoAdapter
 {
     public interface IResumenTarjetaCobradoService
     {
-        void RegistrarCobro(ResumenTarjeta resumen);
+        void RegistrarCobro(ref ResumenTarjeta resumen);
     }
 }

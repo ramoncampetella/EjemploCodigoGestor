@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "8e549f0fb7591a9d4cce5cc51beeca4dc3841317"
+    "signature": "d1cca9a8c275be6ad4e817ee9e05dafa5fc97532"
   },
   "compilationOptions": {},
   "targets": {
@@ -28,6 +28,14 @@
         },
         "runtime": {
           "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "AutoMapper/7.0.1": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/AutoMapper.dll": {}
         }
       },
       "Castle.Core/4.3.1": {
@@ -373,7 +381,7 @@
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.TypeExtensions": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.3.0",
-          "System.ValueTuple": "4.4.0"
+          "System.ValueTuple": "4.5.0"
         },
         "runtime": {
           "lib/netstandard1.3/Moq.dll": {}
@@ -936,7 +944,7 @@
           "System.Runtime.Handles": "4.3.0"
         }
       },
-      "System.ValueTuple/4.4.0": {},
+      "System.ValueTuple/4.5.0": {},
       "System.Xml.ReaderWriter/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1091,6 +1099,11 @@
           "lib/netstandard1.6/xunit2.ioc.autofac.dll": {}
         }
       },
+      "CuotaCobradaService.DTO/1.0.0": {
+        "runtime": {
+          "CuotaCobradaService.DTO.dll": {}
+        }
+      },
       "Gestor.API/1.0.0": {
         "dependencies": {
           "Gestor.BizEntities": "1.0.0",
@@ -1114,6 +1127,8 @@
       },
       "Gestor.CuotaCobradaServiceAdapter/1.0.0": {
         "dependencies": {
+          "AutoMapper": "7.0.1",
+          "CuotaCobradaService.DTO": "1.0.0",
           "Gestor.BizEntities": "1.0.0"
         },
         "runtime": {
@@ -1122,10 +1137,17 @@
       },
       "Gestor.ResumenTarjetaCobradoServiceAdapter/1.0.0": {
         "dependencies": {
-          "Gestor.BizEntities": "1.0.0"
+          "AutoMapper": "7.0.1",
+          "Gestor.BizEntities": "1.0.0",
+          "TarjetaCobradoService.DTO": "1.0.0"
         },
         "runtime": {
           "Gestor.ResumenTarjetaCobradoServiceAdapter.dll": {}
+        }
+      },
+      "TarjetaCobradoService.DTO/1.0.0": {
+        "runtime": {
+          "TarjetaCobradoService.DTO.dll": {}
         }
       }
     }
@@ -1142,6 +1164,13 @@
       "sha512": "sha512-C0O06dJ1/WAYr4CZzBu3RCs2GZuR3G8PQFqgxa3PP4jDMUb9//jgL2ONvF06qxPsC0UflkBS55wmd7C5oaEsEg==",
       "path": "autofac/4.1.1",
       "hashPath": "autofac.4.1.1.nupkg.sha512"
+    },
+    "AutoMapper/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
+      "path": "automapper/7.0.1",
+      "hashPath": "automapper.7.0.1.nupkg.sha512"
     },
     "Castle.Core/4.3.1": {
       "type": "package",
@@ -1605,12 +1634,12 @@
       "path": "system.threading.threadpool/4.0.10",
       "hashPath": "system.threading.threadpool.4.0.10.nupkg.sha512"
     },
-    "System.ValueTuple/4.4.0": {
+    "System.ValueTuple/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
-      "path": "system.valuetuple/4.4.0",
-      "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
+      "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "System.Xml.ReaderWriter/4.3.0": {
       "type": "package",
@@ -1717,6 +1746,11 @@
       "path": "xunit2.ioc.autofac/1.0.4",
       "hashPath": "xunit2.ioc.autofac.1.0.4.nupkg.sha512"
     },
+    "CuotaCobradaService.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Gestor.API/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1738,6 +1772,11 @@
       "sha512": ""
     },
     "Gestor.ResumenTarjetaCobradoServiceAdapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TarjetaCobradoService.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

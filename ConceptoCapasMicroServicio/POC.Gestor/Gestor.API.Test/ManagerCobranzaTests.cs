@@ -10,7 +10,6 @@ namespace Gestor.API.Test
     [UseAutofacTestFramework]
     public class ManagerCobranzaTests
     {
-        //sacar y poner DI.
         private ICuotaCobradaService _cuotaCobradaService;
         private IResumenTarjetaCobradoService _resumenTarjetaCobradoService;
 
@@ -42,9 +41,11 @@ namespace Gestor.API.Test
                 cobranza.Pagos = new System.Collections.Generic.List<AbstractPago>() { cuota, tarjeta };
 
 
-                int idCobranza = _manager.Cobrar(cobranza);
+                _manager.Cobrar(ref cobranza);
 
-                Assert.True(idCobranza > 0, "Ocurrio un error");
+
+
+                Assert.True(cobranza.Pagos.Count > 0, "Ocurrio un error");
             }
             catch (Exception ex)
             {

@@ -8,5 +8,7 @@ namespace Gestor.BizEntities
     {
         public DateTime FechaPago { get; set; }
         public decimal MontoPagado { get; set; }
+        //Registracion
+        public int IdRegistracion { get; set; }
     }
 }

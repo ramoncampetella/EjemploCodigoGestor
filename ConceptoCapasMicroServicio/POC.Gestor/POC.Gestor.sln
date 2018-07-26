@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.Common", "Gestor.Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarjetaCobradoService.DTO", "TarjetaCobradoService.DTO\TarjetaCobradoService.DTO.csproj", "{B0C7FE45-D1A9-4A63-AC27-892011605B15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.RestAPI", "Gestor.RestAPI\Gestor.RestAPI.csproj", "{87746CA4-70DE-4B80-8EA2-89662F1603E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor.RestAPI.DTO", "Gestor.RestAPI.DTO\Gestor.RestAPI.DTO.csproj", "{55F2CA65-0337-4704-A6B0-27BCEFEF043A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +74,14 @@ Global
 		{B0C7FE45-D1A9-4A63-AC27-892011605B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0C7FE45-D1A9-4A63-AC27-892011605B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0C7FE45-D1A9-4A63-AC27-892011605B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87746CA4-70DE-4B80-8EA2-89662F1603E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87746CA4-70DE-4B80-8EA2-89662F1603E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87746CA4-70DE-4B80-8EA2-89662F1603E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87746CA4-70DE-4B80-8EA2-89662F1603E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F2CA65-0337-4704-A6B0-27BCEFEF043A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F2CA65-0337-4704-A6B0-27BCEFEF043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F2CA65-0337-4704-A6B0-27BCEFEF043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F2CA65-0337-4704-A6B0-27BCEFEF043A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

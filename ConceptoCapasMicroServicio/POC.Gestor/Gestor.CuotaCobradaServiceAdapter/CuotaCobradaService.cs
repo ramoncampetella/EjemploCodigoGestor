@@ -1,14 +1,29 @@
 ﻿using System;
+using AutoMapper;
+using CuotaCobradaService.DTO;
 using Gestor.BizEntities;
+using Gestor.CuotaCobradaServiceAdapter.Proxy;
 
 namespace Gestor.CuotaCobradaServiceAdapter
 {
 
     public class CuotaCobradaService : ICuotaCobradaService
     {
-        public void RegistrarCobro(Cuota cuota)
+        private ICuotaCobradaServiceProxy _cuotaCobradaService;
+
+        public CuotaCobradaService(ICuotaCobradaServiceProxy cuotaCobradaService)
         {
-            throw new NotImplementedException();
+            _cuotaCobradaService = cuotaCobradaService;
+        }
+
+        public void RegistrarCobro(ref Cuota cuota)
+        {
+            //builder de objetos y llamada al servicio
+            var rq = Mapper.Map<RegistrarCobroCuotaRq>(cuota);
+
+            var rs = _cuotaCobradaService.RegistrarCobroCuota(rq);
+
+            Mapper.Map(rs, cuota);
         }
     }
 }

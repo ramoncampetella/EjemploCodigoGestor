@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CuotaCobradaService.DTO\CuotaCobradaService.DTO.csproj" />
     <ProjectReference Include="..\Gestor.BizEntities\Gestor.BizEntities.csproj" />
   </ItemGroup>
 

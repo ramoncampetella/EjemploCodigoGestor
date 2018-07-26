@@ -6,3 +6,4 @@ C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gest
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.BizEntities\obj\Debug\netcoreapp2.0\Gestor.BizEntities.AssemblyInfo.cs
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.BizEntities\obj\Debug\netcoreapp2.0\Gestor.BizEntities.dll
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.BizEntities\obj\Debug\netcoreapp2.0\Gestor.BizEntities.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.BizEntities\obj\Debug\netcoreapp2.0\Gestor.BizEntities.csprojAssemblyReference.cache

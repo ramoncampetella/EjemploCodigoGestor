@@ -15,6 +15,18 @@
           "lib/netstandard1.1/Autofac.dll": {}
         }
       },
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/AutoMapper.dll": {}
+        }
+      },
       "Castle.Core/4.3.1": {
         "type": "package",
         "dependencies": {
@@ -1517,7 +1529,7 @@
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
         }
       },
-      "System.ValueTuple/4.4.0": {
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -1764,6 +1776,16 @@
           "lib/netstandard1.6/xunit2.ioc.autofac.dll": {}
         }
       },
+      "CuotaCobradaService.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CuotaCobradaService.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CuotaCobradaService.DTO.dll": {}
+        }
+      },
       "Gestor.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -1804,6 +1826,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
+          "AutoMapper": "7.0.1",
+          "CuotaCobradaService.DTO": "1.0.0",
           "Gestor.BizEntities": "1.0.0"
         },
         "compile": {
@@ -1817,13 +1841,25 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Gestor.BizEntities": "1.0.0"
+          "AutoMapper": "7.0.1",
+          "Gestor.BizEntities": "1.0.0",
+          "TarjetaCobradoService.DTO": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Gestor.ResumenTarjetaCobradoServiceAdapter.dll": {}
         },
         "runtime": {
           "bin/placeholder/Gestor.ResumenTarjetaCobradoServiceAdapter.dll": {}
+        }
+      },
+      "TarjetaCobradoService.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TarjetaCobradoService.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TarjetaCobradoService.DTO.dll": {}
         }
       }
     }
@@ -1840,6 +1876,27 @@
         "lib/net45/Autofac.xml",
         "lib/netstandard1.1/Autofac.dll",
         "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
+    "AutoMapper/7.0.1": {
+      "sha512": "6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
+      "type": "package",
+      "path": "automapper/7.0.1",
+      "files": [
+        "automapper.7.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.pdb",
+        "lib/net45/AutoMapper.xml",
+        "lib/netcoreapp2.0/AutoMapper.dll",
+        "lib/netcoreapp2.0/AutoMapper.pdb",
+        "lib/netcoreapp2.0/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.pdb",
+        "lib/netstandard1.3/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
     "Castle.Core/4.3.1": {
@@ -5566,11 +5623,12 @@
         "system.threading.threadpool.nuspec"
       ]
     },
-    "System.ValueTuple/4.4.0": {
-      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+    "System.ValueTuple/4.5.0": {
+      "sha512": "xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
       "type": "package",
-      "path": "system.valuetuple/4.4.0",
+      "path": "system.valuetuple/4.5.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -5585,6 +5643,7 @@
         "lib/netstandard2.0/_._",
         "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
         "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
@@ -5592,18 +5651,16 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net461/System.ValueTuple.dll",
-        "ref/net461/System.ValueTuple.xml",
         "ref/net47/System.ValueTuple.dll",
-        "ref/net47/System.ValueTuple.xml",
         "ref/netcoreapp2.0/_._",
         "ref/netstandard2.0/_._",
         "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.4.5.0.nupkg.sha512",
         "system.valuetuple.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -6049,6 +6106,11 @@
         "xunit2.ioc.autofac.nuspec"
       ]
     },
+    "CuotaCobradaService.DTO/1.0.0": {
+      "type": "project",
+      "path": "../CuotaCobradaService.DTO/CuotaCobradaService.DTO.csproj",
+      "msbuildProject": "../CuotaCobradaService.DTO/CuotaCobradaService.DTO.csproj"
+    },
     "Gestor.API/1.0.0": {
       "type": "project",
       "path": "../POC.Gestor.API/Gestor.API.csproj",
@@ -6073,6 +6135,11 @@
       "type": "project",
       "path": "../Gestor.ResumenTarjetaCobradoAdapter/Gestor.ResumenTarjetaCobradoServiceAdapter.csproj",
       "msbuildProject": "../Gestor.ResumenTarjetaCobradoAdapter/Gestor.ResumenTarjetaCobradoServiceAdapter.csproj"
+    },
+    "TarjetaCobradoService.DTO/1.0.0": {
+      "type": "project",
+      "path": "../TarjetaCobradoService.DTO/TarjetaCobradoService.DTO.csproj",
+      "msbuildProject": "../TarjetaCobradoService.DTO/TarjetaCobradoService.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {

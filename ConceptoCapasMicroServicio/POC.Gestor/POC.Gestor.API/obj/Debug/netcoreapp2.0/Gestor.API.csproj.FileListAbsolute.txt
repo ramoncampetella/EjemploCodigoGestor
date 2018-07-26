@@ -16,3 +16,7 @@ C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gest
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\Gestor.Common.pdb
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\Gestor.CuotaCobradaServiceAdapter.pdb
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\CuotaCobradaService.DTO.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\CuotaCobradaService.DTO.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\POC.Gestor.API\bin\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.pdb

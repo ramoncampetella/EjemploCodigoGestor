@@ -12,5 +12,6 @@ namespace Gestor.BizEntities
         public DateTime FechaVencimiento { get; set; }
         public decimal ValorCuota { get; set; }
 
+        
     }
 }

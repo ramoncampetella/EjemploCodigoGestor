@@ -1,6 +1,9 @@
 ﻿using Autofac;
+using AutoMapper;
 using Gestor.CuotaCobradaServiceAdapter;
+using Gestor.CuotaCobradaServiceAdapter.Proxy;
 using Gestor.ResumenTarjetaCobradoAdapter;
+using Gestor.ResumenTarjetaCobradoServiceAdapter.Proxy;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -30,12 +33,21 @@ namespace Gestor.API.Test
                 .As<ITestOutputHelper>()
                 .InstancePerLifetimeScope();
 
-            // configure your container
-            // e.g. builder.RegisterModule<TestOverrideModule>();
+            //Configuracion DI.
             builder.RegisterType<ResumenTarjetaCobradoService>().As<IResumenTarjetaCobradoService>();
-            builder.RegisterType<CuotaCobradaService>().As<ICuotaCobradaService>();
+            builder.RegisterType<CuotaCobradaServiceAdapter.CuotaCobradaService>().As<ICuotaCobradaService>();
+            builder.RegisterType<MockCuotaCobradaProxy>().As<ICuotaCobradaServiceProxy>();
+            builder.RegisterType<MockResumenTarjetaCobradoProxy>().As<IResumenTarjetaCobradoProxy>();
 
             Container = builder.Build();
+
+            //Configuracion de mapeos.
+            Mapper.Initialize(cfg => cfg.AddProfiles(new[] {
+                typeof(CuotaCobradaServiceAdapter.Mappers.AutomapperConfig),
+                typeof(ResumenTarjetaCobradoServiceAdapter.Mappers.AutomapperConfig)
+            }));
+
+           
         }
 
     }

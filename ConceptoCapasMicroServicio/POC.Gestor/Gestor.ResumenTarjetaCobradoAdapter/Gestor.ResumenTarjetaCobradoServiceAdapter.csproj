@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Gestor.BizEntities\Gestor.BizEntities.csproj" />
+    <ProjectReference Include="..\TarjetaCobradoService.DTO\TarjetaCobradoService.DTO.csproj" />
   </ItemGroup>
 
 </Project>

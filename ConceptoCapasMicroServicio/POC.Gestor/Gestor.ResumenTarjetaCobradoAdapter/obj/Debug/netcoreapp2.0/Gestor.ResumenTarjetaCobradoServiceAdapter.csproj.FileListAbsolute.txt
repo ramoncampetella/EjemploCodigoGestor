@@ -10,3 +10,5 @@ C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gest
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.csproj.CopyComplete
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.dll
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\obj\Debug\netcoreapp2.0\Gestor.ResumenTarjetaCobradoServiceAdapter.pdb
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.dll
+C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\Gestor.ResumenTarjetaCobradoAdapter\bin\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.pdb
