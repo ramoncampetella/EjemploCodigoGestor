@@ -2,7 +2,7 @@
 
 namespace Gestor.BizEntities
 {
-    public class ResumenTarjeta : AbstractPago
+    public class ResumenTarjeta : BasePago
     {
         public DateTime FechaVencimiento{ get; set; }
         public decimal Consumo { get; set; }

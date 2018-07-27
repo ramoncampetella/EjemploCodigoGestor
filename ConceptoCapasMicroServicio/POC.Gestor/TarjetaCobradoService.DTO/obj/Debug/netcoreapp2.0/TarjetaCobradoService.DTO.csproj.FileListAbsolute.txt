@@ -6,4 +6,3 @@ C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gest
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\TarjetaCobradoService.DTO\obj\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.AssemblyInfo.cs
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\TarjetaCobradoService.DTO\obj\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.dll
 C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\TarjetaCobradoService.DTO\obj\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.pdb
-C:\Users\f15583\Documents\Pruebas\RepoGithub\ConceptoCapasMicroServicio\POC.Gestor\TarjetaCobradoService.DTO\obj\Debug\netcoreapp2.0\TarjetaCobradoService.DTO.csprojAssemblyReference.cache

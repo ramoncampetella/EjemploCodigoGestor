@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gestor.RestAPI</name>
+    </assembly>
+    <members>
+        <member name="Gestor.RestAPI.Controllers.CobranzaController.Registrar(Gestor.RestAPI.DTO.CobranzaRq)">
+            <summary>
+            Registra una cobraza
+            </summary>
+            <param name="cobranza">Detalle de una cobranza realizada</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

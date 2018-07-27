@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Gestor.BizEntities
 {
-    public class Cuota : AbstractPago
+    public class Cuota : BasePago
     {
         public int CuentaCredito{ get; set; }
         public int IdentificacionCredito { get; set; }

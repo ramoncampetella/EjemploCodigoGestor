@@ -38,7 +38,7 @@ namespace Gestor.API.Test
                 Cuota cuota = new Cuota() { CuentaCredito = 123, FechaVencimiento = new DateTime(2018, 7, 20), NroCuota = 2, IdentificacionCredito = 1234567, ValorCuota = 500, FechaPago = DateTime.Now, MontoPagado = 500 };
                 ResumenTarjeta tarjeta = new ResumenTarjeta() { NumeroCuenta = 3456, TipoTarjeta = "V", FechaVencimiento = new DateTime(2018, 7, 21), Consumo = 500, FechaPago = DateTime.Now, MontoPagado = 500 };
 
-                cobranza.Pagos = new System.Collections.Generic.List<AbstractPago>() { cuota, tarjeta };
+                cobranza.Pagos = new System.Collections.Generic.List<BasePago>() { cuota, tarjeta };
 
 
                 _manager.Cobrar(ref cobranza);

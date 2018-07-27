@@ -10,5 +10,6 @@ namespace Gestor.RestAPI.DTO
         public decimal Consumo { get; set; }
         public int NumeroCuenta { get; set; }
         public string TipoTarjeta { get; set; }
+
     }
 }

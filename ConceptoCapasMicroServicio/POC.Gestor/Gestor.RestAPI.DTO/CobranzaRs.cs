@@ -6,6 +6,7 @@ namespace Gestor.RestAPI.DTO
 {
     public class CobranzaRs
     {
-
+        public List<PagoCuotaDTORs> Cuotas { get; set; }
+        public List<PagoResumenTarjetaDTORs> Resumenes { get; set; }
     }
 }

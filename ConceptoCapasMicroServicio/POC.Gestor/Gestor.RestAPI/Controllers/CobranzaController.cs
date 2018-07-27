@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Gestor.API;
+using Gestor.BizEntities;
 using Gestor.RestAPI.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Examples;
 
 namespace Gestor.RestAPI.Controllers
 {
@@ -22,9 +25,15 @@ namespace Gestor.RestAPI.Controllers
 
         [HttpPost]
         [Route("/Registrar")]
-        public CobranzaRs Registrar([FromBody]CobranzaRq value)
+        public CobranzaRs Registrar([FromBody]CobranzaRq rq)
         {
+            var cobranza = Mapper.Map<Cobranza>(rq);
 
+            _managerCobranza.Cobrar(ref cobranza);
+
+            var rs = Mapper.Map<CobranzaRs>(cobranza);
+
+            return rs;
         }
     }
 }
