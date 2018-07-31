@@ -19,12 +19,8 @@ namespace Gestor.RestAPI.Mappers
                     .ForMember(dest => dest.Pagos,
                             opt => opt.MapFrom(
                                 src => Mapper.Map<List<PagoResumenTarjetaDTORq>, List<ResumenTarjeta>>(src.ResumenesTarjetaPagos)
-                                ))
-                    .ForMember(dest => dest.Pagos,
-                            opt => opt.MapFrom(
-                                src => Mapper.Map<List<PagoCuotaDTORq>, List<Cuota>>(src.CuotasPagas)
                                 ));
-
+                    
             CreateMap<MedioPagoDTO, MedioPago>();
 
             CreateMap<BasePagoDTORq, BasePago>();
@@ -33,6 +29,15 @@ namespace Gestor.RestAPI.Mappers
             CreateMap<Cuota, PagoCuotaDTORs>();
             CreateMap<PagoResumenTarjetaDTORq, ResumenTarjeta>();
             CreateMap<ResumenTarjeta, PagoResumenTarjetaDTORs>();
+            CreateMap<Cobranza, CobranzaRs>()
+                    .ForMember(dest => dest.Cuotas,
+                            opt => opt.MapFrom(
+                                src => Mapper.Map<List<Cuota>, List<PagoCuotaDTORs>>(src.Pagos.OfType<Cuota>().ToList())
+                                ))
+                    .ForMember(dest => dest.Resumenes,
+                            opt => opt.MapFrom(
+                                src => Mapper.Map<List<ResumenTarjeta>, List<PagoResumenTarjetaDTORs>>(src.Pagos.OfType<ResumenTarjeta>().ToList())
+                                ));
         }
 
         

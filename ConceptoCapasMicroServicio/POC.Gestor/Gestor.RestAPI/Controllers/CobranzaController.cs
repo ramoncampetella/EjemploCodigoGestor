@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using AutoMapper;
 using Gestor.API;
@@ -29,8 +30,11 @@ namespace Gestor.RestAPI.Controllers
         {
             var cobranza = Mapper.Map<Cobranza>(rq);
 
+            rq.CuotasPagas.ForEach(x => cobranza.Pagos.Add(Mapper.Map<Cuota>(x)));
+
             _managerCobranza.Cobrar(ref cobranza);
 
+            
             var rs = Mapper.Map<CobranzaRs>(cobranza);
 
             return rs;
